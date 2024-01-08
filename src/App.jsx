@@ -20,7 +20,7 @@ import Projects from "./components/Projects/Projects";
 import Active from "./components/Activeuserfile/Activeusers";
 import Header from "./components/Header";
 
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -54,7 +54,7 @@ function App() {
           <Order/>
           </div>
 
-          {/* <Footer/> */}
+          <Footer/>
     
       </div>
       </div>
