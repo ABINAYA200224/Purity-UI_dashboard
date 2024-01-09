@@ -53,7 +53,7 @@ function Projects() {
 
         <div className=" w-[95%] h-[500px] flex justify-center m-auto items-center">
           <div className="flex flex-col gap-[15px] mb-[40px]">
-            <Projectcard2/>
+            <Projectcard2 />
             <Projectcard
               compani_img1={companiesimg1}
               compani_name="Chakra Soft UI Version"
@@ -61,7 +61,6 @@ function Projects() {
               percentage="60%"
               completion={completion1}
               amount="$14,000"
-              
             />
             <Projectcard
               compani_img1={companiesimg2}
@@ -70,7 +69,6 @@ function Projects() {
               percentage="10%"
               completion={completion2}
               amount="$3,000"
-              
             />
             <Projectcard
               compani_img1={companiesimg3}
@@ -79,7 +77,6 @@ function Projects() {
               percentage="100%"
               completion={completion3}
               amount="Not set"
-            
             />
             <Projectcard
               compani_img1={companiesimg4}
@@ -104,7 +101,6 @@ function Projects() {
               percentage="40%"
               completion={completion6}
               amount="$7,600"
-              
             />
           </div>
         </div>

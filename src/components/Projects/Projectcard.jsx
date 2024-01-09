@@ -21,7 +21,7 @@ function Projectcard({
                   <img src={compani_img1} className="w-[20px] h-[19.5px]"></img>
                 </div>
                 <div className="">
-                  <p className="text-[14px] font-bold text-[#2D3748]">
+                  <p className="text-[12px] font-bold text-[#2D3748]">
                     {compani_name}
                   </p>
                 </div>
@@ -34,12 +34,12 @@ function Projectcard({
             </th>
             <th class="w-[155px]">
               <div>
-                <p className="text-[14px] font-bold text-[#2D3748]">{amount}</p>
+                <p className="text-[12px] font-bold text-[#2D3748]">{amount}</p>
               </div>
             </th>
             <th class="">
               <div className="flex flex-col">
-                <div className="text-[#4FD1C5] text-[14px] font-bold">
+                <div className="text-[#4FD1C5] text-[12px] font-bold">
                   <p className="flex justify-start">{percentage}</p>
                 </div>
                 <div>

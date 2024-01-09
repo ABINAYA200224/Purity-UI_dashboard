@@ -15,9 +15,9 @@ function Active() {
     <div classname=" ">
       <div className=" bg-[#fff] w-[30rem] h-[420px] ml-[10px] mt-[20px] rounded-2xl">
         <div className="">
-        <ActiveUserImg/>
+          <ActiveUserImg />
         </div>
-        
+
         <div className="flex flex-col gap-[20px] px-[30px]">
           <div>
             <div>

@@ -22,10 +22,10 @@ function Userline() {
         </div>
 
         <div className="flex gap-[30px] ">
-          <div  className="mt-[140px]">
+          <div className="mt-[140px]">
             <img src={saleimg1} className="w-[5px] h-[60px] "></img>
           </div>
-          <div className="mt-[148px]" >
+          <div className="mt-[148px]">
             <img src={saleimg2} className="w-[5px] h-[50px] "></img>
           </div>
           <div className="mt-[158px]">

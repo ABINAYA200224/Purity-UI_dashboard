@@ -17,13 +17,13 @@ function Uidashboard() {
                   </div>
                   <div>
                     <h1 className="text-[14px] font-bold text-[#2D3748]">
-                      Purity Ui Dashboard
+                      Purity UI Dashboard
                     </h1>
                   </div>
                   <div>
                     <p className="text-[12px] font-bold text-[#A0AEC0] w-[314px]">
-                      From colors,cards,typography to complex elements,you will
-                      find the full documentation.
+                      From colors, cards, typography to complex elements, you
+                      will find the full documentation.
                     </p>
                   </div>
                 </div>
@@ -42,7 +42,10 @@ function Uidashboard() {
               </div>
             </div>
             <div className="w-[50%] flex justify-center m-auto h-[250px] items-center">
-              <img src={uidashboard} className="w-[260px] h-[220px] rounded-md"></img>
+              <img
+                src={uidashboard}
+                className="w-[260px] h-[220px] rounded-md"
+              ></img>
             </div>
           </div>
         </div>

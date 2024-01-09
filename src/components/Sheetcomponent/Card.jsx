@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card({ amount, percentage, status_day, className ,img}) {
+function Card({ amount, percentage, status_day, className, img }) {
   return (
     <div className="ml-[7px] mt-[20px]">
       <div className="w-[300px] h-[50px] bg-[#fff] rounded-2xl ">
@@ -12,14 +12,16 @@ function Card({ amount, percentage, status_day, className ,img}) {
               </p>
               <div className="flex gap-[10px]">
                 <div>
-                  <h2 className="font-bold text-[14px] text-[#2D3748]">{amount}</h2>
+                  <h2 className="font-bold text-[14px] text-[#2D3748]">
+                    {amount}
+                  </h2>
                 </div>
                 <div className="flex justify-center items-center">
                   <h2
                     className={`font-bold text-[11px] text-[#48BB78]  ${className}`}
                   >
                     {percentage}
-                  </h2>                 
+                  </h2>
                 </div>
               </div>
             </div>

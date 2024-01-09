@@ -12,8 +12,8 @@ import signup from "../../assets/images/signup.png";
 import Navimg from "./Navimg";
 function Navbar() {
   return (
-    <div className="ml-[10px]">
-      <div className="w-[200.5px] h-[800px] bg-[#F8F9FA]">
+    <div className="pl-[20px]">
+      <div className="w-[190.5px] h-[800px] bg-[#F8F9FA]">
         <div className="flex flex-col fixed top-0 ">
           <div className="flex flex-col gap-[20px]">
             <div className="flex gap-[10px] mt-[20px]">
@@ -27,17 +27,17 @@ function Navbar() {
                 </h2>
               </div>
             </div>
-            <div className="mb-[20px] ">
+            <div className="mb-[20px]">
               <img src={line} className=""></img>
             </div>
           </div>
 
           <div>
             <div className="flex flex-col gap-[10px]">
-              <div className="w-[200px] h-[40px] bg-[#FFFFFF] rounded-2xl ">
+              <div className="w-[190px] h-[35px] bg-[#FFFFFF] rounded-2xl">
                 <div className="flex gap-[10px] w-[100%]">
                   <div className="flex justify-center items-center ">
-                    <div className="bg-[#4FD1C5] w-[30px] h-[30px] flex rounded-xl">
+                    <div className="bg-[#4FD1C5] w-[25px] h-[25px] flex rounded-xl">
                       <img
                         src={home}
                         alt="card1"

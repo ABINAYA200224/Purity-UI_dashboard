@@ -1,7 +1,7 @@
 import React from "react";
 // import user1 from "../../assets/images/user1.png";
 // import percentage3 from '../../assets/images/percentage3.png'
-function Users({user_name,amount,progress,user_imgae}) {
+function Users({ user_name, amount, progress, user_imgae }) {
   return (
     <div>
       <div className="flex gap-[10px]">
@@ -17,12 +17,9 @@ function Users({user_name,amount,progress,user_imgae}) {
         </div>
       </div>
       <div className="flex flex-col gap-[10px]">
-      <h2 className="text-[14px] text-[#2D3748] font-bold">
-        {amount}
-      </h2>
-      <img src={progress}></img>
+        <h2 className="text-[14px] text-[#2D3748] font-bold">{amount}</h2>
+        <img src={progress}></img>
       </div>
-     
     </div>
   );
 }
